@@ -1,0 +1,160 @@
+{
+"categorias":[
+      {"id":"c4","url_img":"img/bolsos/","nomcategoria":"Bolsos","default_img_cat":"img/bolsos/default_bolso_drill.jpg"},
+      {"id":"c5","url_img":"img/polos/","nomcategoria":"Polos","default_img_cat":"img/polos/default_polo_algodonpyma.jpeg"},
+      {"id":"c6","url_img":"img/libros/","nomcategoria":"Ebooks","default_img_cat":"img/libros/default_img_cat_ebook.jpg"},
+      {"id":"c1","url_img":"img/ropa_hombre/","nomcategoria":"Moda hombre","default_img_cat":"img/ropa_hombre/default_img_cat_hombre.jpg"},
+      {"id":"c2","url_img":"img/ropa_mujer/","nomcategoria":"Moda mujer","default_img_cat":"img/ropa_mujer/default_img_cat_mujer.jpg"},
+      {"id":"c3","url_img":"img/ropa_infantil/","nomcategoria":"Moda infantil","default_img_cat":"img/ropa_infantil/default_img_cat_infantil.jpg"}
+      
+      
+],
+"tallas":[
+      {"id_cat":"c1","id_talla":"1","nom_talla":"XS","valor":""},
+      {"id_cat":"c1","id_talla":"2","nom_talla":"S","valor":""},
+      {"id_cat":"c1","id_talla":"3","nom_talla":"M","valor":""},
+      {"id_cat":"c1","id_talla":"4","nom_talla":"L","valor":""},
+      {"id_cat":"c1","id_talla":"5","nom_talla":"XL","valor":""},
+      {"id_cat":"c2","id_talla":"1","nom_talla":"XS","valor":""},
+      {"id_cat":"c2","id_talla":"2","nom_talla":"S","valor":""},
+      {"id_cat":"c2","id_talla":"3","nom_talla":"M","valor":""},
+      {"id_cat":"c2","id_talla":"4","nom_talla":"L","valor":""},
+      {"id_cat":"c2","id_talla":"5","nom_talla":"XL","valor":""},
+      {"id_cat":"c4","id_talla":"1","nom_talla":"alto:38cm y ancho:35cm","valor":""},
+      {"id_cat":"c5","id_talla":"2","nom_talla":"S","valor":""},
+      {"id_cat":"c5","id_talla":"3","nom_talla":"M","valor":""},
+      {"id_cat":"c5","id_talla":"4","nom_talla":"L","valor":""}
+      
+],
+"colores":[
+      {"id_cat":"c1","id_color":"1","nom_color":"blanco","valor":""},
+      {"id_cat":"c1","id_color":"2","nom_color":"negro","valor":""},
+      {"id_cat":"c1","id_color":"3","nom_color":"rojo","valor":""},
+      {"id_cat":"c1","id_color":"4","nom_color":"azul","valor":""},
+      {"id_cat":"c1","id_color":"5","nom_color":"verde","valor":""},
+      {"id_cat":"c2","id_color":"1","nom_color":"blanco","valor":""},
+      {"id_cat":"c2","id_color":"2","nom_color":"negro","valor":""},
+      {"id_cat":"c2","id_color":"3","nom_color":"rojo","valor":""},
+      {"id_cat":"c2","id_color":"4","nom_color":"azul","valor":""},
+      {"id_cat":"c2","id_color":"5","nom_color":"verde","valor":""},
+      {"id_cat":"c4","id_color":"1","nom_color":"beige","valor":""},
+      {"id_cat":"c5","id_color":"1","nom_color":"blanco","valor":""},
+      {"id_cat":"c5","id_color":"2","nom_color":"negro","valor":""},
+      {"id_cat":"c5","id_color":"3","nom_color":"rojo","valor":""},
+      {"id_cat":"c5","id_color":"4","nom_color":"azul","valor":""},
+      {"id_cat":"c5","id_color":"5","nom_color":"verde","valor":""}
+],
+"productos":[            
+      {
+      "id": "1",      
+      "marca": "Marca1",
+      "nomproducto": "Casaca hombre",
+      "imagen": "product-3.jpg",
+      "preciocat": "90",
+      "preciofer": "75",
+      "categoria":"c1",
+      "cantidad": 10      
+      },     
+      {
+      "id": "2",
+      "marca": "Marca2",
+      "nomproducto": "Pijama mujer",
+      "imagen": "product-1.jpg",
+      "preciocat": "85",
+      "preciofer": "75",
+      "categoria":"c2",
+      "cantidad": 10
+      },
+      {
+      "id": "3",
+      "marca": "Marca3",
+      "nomproducto": "casaca jean niño",
+      "imagen": "product-2.jpg",
+      "preciocat": "350",
+      "preciofer": "275",
+      "categoria":"c3",
+      "cantidad": 10
+      },
+      {
+            "id": "4",      
+            "marca": "Marca1",
+            "nomproducto": "Terno hombre",
+            "imagen": "product-6.jpg",
+            "preciocat": "90",
+            "preciofer": "75",
+            "categoria":"c1",
+            "cantidad": 5      
+      },
+      {
+            "id": "5",
+            "marca": "Marca3",
+            "nomproducto": "polo de niña",
+            "imagen": "product-5.jpg",
+            "preciocat": "350",
+            "preciofer": "275",
+            "categoria":"c3",
+            "cantidad": 10
+      },
+      {
+            "id": "6",
+            "marca": "Marca3",
+            "nomproducto": "camisa de niño",
+            "imagen": "product-8.jpg",
+            "preciocat": "350",
+            "preciofer": "275",
+            "categoria":"c3",
+            "cantidad": 10
+      },
+      {
+            "id": "7",
+            "marca": "Marca2",
+            "nomproducto": "Vestido mujer",
+            "imagen": "product-4.jpg",
+            "preciocat": "85",
+            "preciofer": "75",
+            "categoria":"c2",
+            "cantidad": 5
+      },
+      {
+            "id": "8",
+            "marca": "Marca2",
+            "nomproducto": "Abrigo mujer",
+            "imagen": "product-7.jpg",
+            "preciocat": "85",
+            "preciofer": "75",
+            "categoria":"c2",
+            "cantidad": 5
+      },
+      {
+            "id": "9",
+            "marca": "Impactun",
+            "nomproducto": "Bolso de drill estampado",
+            "imagen": "bolso_drill.jpg",
+            "preciocat": "25",
+            "preciofer": "20",
+            "categoria":"c4",
+            "cantidad": 100            
+      },
+      {
+            "id": "10",
+            "marca": "Impactun",
+            "nomproducto": "Polo de algodón pyma",
+            "imagen": "polo_algodonpyma2.jpeg",
+            "preciocat": "43",
+            "preciofer": "38",
+            "categoria":"c5",
+            "cantidad": 100            
+      },
+      {
+            "id": "11",
+            "marca": "Elizabeth Clavo",
+            "nomproducto": "Ebook Elizabeth Clavo",
+            "imagen": "ebook_eclavo.jpg",
+            "preciocat": "30",
+            "preciofer": "25",
+            "categoria":"c6",
+            "cantidad": 100            
+      }                     
+
+]
+}
